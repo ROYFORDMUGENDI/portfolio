@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #080808;
+    color: white;
+}
+
+.header{
+    background-image: url(images/Header.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container{
+    padding: 10px 10%;
+
+    }
+
+   #nav{
+       position: fixed;
+       top: 0;
+       right: 0;
+       width: 100%;
+       padding: 20px 50px;
+      
+
+
+       ul{
+        list-style: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+       }
+
+       li{
+        display: inline;
+        margin-right: 20px;
+       }
+
+       a{
+        color: white;
+        text-decoration: none;
+        transition: 0.5s;
+       }
+
+       a:hover{
+        text-decoration: underline;
+        background: linear-gradient(gold 50% );
+       
+       }
+    }
+
+    .htext{
+        margin-top: 20%;
+        margin-left: 50px;
+
+        h2{
+            margin-top: 20px;
+            font-size: 50px;
+
+            span{
+                color: gold;
+            }
+        }
+
+        p{
+            font-size: 30px;
+            color: gold;
+        }
+    }
+
+
+    #about{
+        padding: 80px 0;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+              
+    }
+
+    col1{
+        flex-basis: 30%;
+    }
+
+    .col2{
+
+        flex-basis: 50%;
+        h2{
+            color: gold;
+            align-content: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-decoration: underline;
+            text-decoration-color: white;
+            text-underline-offset: 0.5rem;
+        }
+
+        p{
+            color: white;
+        }
+    }
+
+    .tabs{
+        display: flex; 
+        flex-direction: column;
+        align-items: left;
+        width: 300px;   
+        margin-top: 30px;
+    
+    }
+
+    .tablinks{
+        margin-right: 20px;
+        background-color: gold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;     
+       
+        
+    }
+
+    .tabcontent{
+        display: none;
+        margin-top: 10px;
+        text-align: left;
+        
+        
+    }
+
+    .tabcontent:target{
+        display: block;
+    }
+
+    .tabcon{
+        display: flex;
+
+
+    }
+
+.tablinks:target{
+    background-color: white;
+    color: black;
+}
+
+.ser{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    h2{
+        color: gold;
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-underline-offset: 0.3rem;
+    }
+    
+}
+
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.ser1{
+    flex: 1;
+    background-color: whitesmoke;
+    margin: 50px;
+    border-radius: 10px;
+    border-right-style:solid gold;
+
+    h3{
+        color:black;
+
+    }
+
+    }
+
+    .con1{
+        color: darkcyan;
+        text-align: left;
+        padding: 20px;
+
+        h3{
+            color: chocolate;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }
+
+    .ser1:hover{
+        background-color: darkcyan;
+        color: white;
+    }
+
+    .con1:hover{
+        color: white;
+    }
+
+    .prev{
+        text-align: left;
+        margin-left: 20%;
+        line-height: 30px;
+        border: gold;
+        
+        
+        
+        a{
+            color: white;
+            text-decoration: none;
+
+            
+        }
+
+        li{
+            
+        }
+        
+    }
+
+    .contac{
+        text-align: center;
+        color: gold;
+
+        h3{
+            padding-bottom: 20px;
+        }
+       
+    }
+
+    .conta{
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .call{
+        flex-basis: 30%;
+        background-color: darkcyan;
+        margin-right: 50px;
+        padding: 20px;
+        border-radius: 5px;
+        height: 100px;
+
+        p{
+            color: white;
+            padding-top: 30px;
+        }
+       
+    }
